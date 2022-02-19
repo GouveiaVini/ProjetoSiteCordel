@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+
+}
+
+:root {
+    --fonte1: 'Passion One', cursive;
+    --fontepadrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fontecursiva: 'Patrick Hand', cursive;
+
+}
+
+body {
+    background-color: rgb(204, 232, 241);
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-family: var(--fonte1);
+    font-size: 4em;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-size: 1.5em;
+    font-family: var(--fontepadrao);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#img1 {
+    background-image: url(imagens/background001.jpg);
+}
+
+#img2 {
+    background-image: url(imagens/background002.jpg);
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 2em;
+    font-family: var(--fontecursiva);
+}
+
+section > p {
+    padding-bottom: 50px;
+}
+
+section.normal {
+    background-color: white;
+    padding-left: 20px;
+
+}
+
+section.image {
+    box-shadow: inset 2px 8px 8px rgba(0, 0, 0, 0.24);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+}
+
+section.image > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+    padding: 10px;
+    text-shadow: 1px 1px black;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: var(--fontepadrao);
+}
+
+span {
+    font-weight: bolder;
+}
