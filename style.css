@@ -68,9 +68,10 @@ section > p {
     padding-bottom: 50px;
 }
 
+
 section.normal {
     background-color: white;
-    padding-left: 20px;
+    padding-left: 40px;
 
 }
 
@@ -86,7 +87,7 @@ section.image > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.171);
     color: white;
-    padding: 10px;
+    padding: 40px;
     text-shadow: 1px 1px black;
 }
 
@@ -100,4 +101,21 @@ footer {
 
 span {
     font-weight: bolder;
+}
+
+
+@media (min-width: 900px) {
+    header {
+        background-color: black;
+        color: rgb(182, 29, 29);
+        text-align: center;
+    }
+
+    section.image > p {
+        padding-left: 140px;
+    }
+
+    section.normal > p {
+        padding-left: 100px;
+    }
 }
